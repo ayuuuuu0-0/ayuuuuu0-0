@@ -65,7 +65,7 @@ Your friendly neighborhood dev swinging between frontends and backends — build
   <img src="https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white"/>
 </p>
 
-### 🧰 Tools & Misc
+### 🧰 Tools
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
