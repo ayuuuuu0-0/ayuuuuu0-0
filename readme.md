@@ -1,6 +1,6 @@
 <h1 align="center">🕸️ Hey, I'm Ayush</h1>
 <p align="center">
-Your friendly neighborhood dev swinging between frontends and backends — building cool stuff one commit at a time.
+Your friendly neighborhood dev swinging and building cool stuff one commit at a time.
 </p>
 
 ---
