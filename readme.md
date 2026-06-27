@@ -29,58 +29,33 @@ languages  →  Go · TypeScript · Dart · C++ · Python · Java · Solidity
 
 ---
 
-## projects
+```python
+class Ayush:
+    location     = "New Delhi, India 🇮🇳"
+    current_role = "SDE @ Omniful AI"
+    building     = ["distributed systems in Go", "AI-native tooling", "things that feel like magic"]
+    learning     = ["Rust", "eBPF", "system design at scale"]
+    philosophy   = "if it's not fast, it's not done"
+    hobbies      = ["comic books 🦸", "gaming 🎮", "breaking prod at 2am 🔥"]
+    ask_me_about = ["Go internals", "system design", "why Dart is underrated"]
 
-<table>
-<tr>
-<td width="50%" valign="top">
+    def available_for(self):
+        return ["collabs", "open source", "cool side projects", "coffee chats ☕"]
+```
 
-**[`qcache`](https://github.com/ayuuuuu0-0/qcache)** &nbsp; `Go`
+---
 
-High-perf in-memory key-value store. Goroutines for concurrent handling, Redis RESP protocol for client-server comms.
+```
+// currently shipping
+▶  distributed cache with custom eviction policies    [ Go         ]  ████████░░  80%
+▶  AI-powered no-code app platform (buildit v2)       [ TypeScript ]  █████░░░░░  50%
+▶  gamified interview prep engine (prepio)            [ Go/Flutter ]  ███░░░░░░░  30%
 
-</td>
-<td width="50%" valign="top">
-
-**[`buildit`](https://github.com/ayuuuuu0-0/buildit)** &nbsp; `TypeScript`
-
-No-code web app generator — natural language → full-stack apps. Next.js + Node.js + Convex.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[`prepio`](https://github.com/ayuuuuu0-0/prepio)** &nbsp; `Go`
-
-Gamified interview prep where becoming ready is the reward. Go microservices + Next.js + Flutter.
-
-</td>
-<td width="50%" valign="top">
-
-**[`event_arcade`](https://github.com/ayuuuuu0-0/event_arcade)** &nbsp; `TypeScript`
-
-Event-driven arcade battle sim. Deterministic bot matchmaking, append-only JSONL log, Redis ranking, SHA-256 integrity.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[`focus`](https://github.com/ayuuuuu0-0/focus)** &nbsp; `TypeScript`
-
-Browser-only focus console. Zero backend, localStorage state, Web Audio chime alerts, midnight rollovers.
-
-</td>
-<td width="50%" valign="top">
-
-**[`Uniconnect`](https://github.com/ayuuuuu0-0/Uniconnect)** &nbsp; `Dart`
-
-Flutter marketplace for college students — buy/sell, auth, profiles, multimedia post creation.
-
-</td>
-</tr>
-</table>
+// on the radar
+○  Rust — because Go made me greedy for speed
+○  eBPF — kernel-level observability is witchcraft
+○  WebAssembly — the browser deserves better runtimes
+```
 
 ---
 
