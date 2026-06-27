@@ -31,12 +31,12 @@ languages  →  Go · TypeScript · Dart · C++ · Python · Java · Solidity
 
 ```python
 class Ayush:
-    location     = "New Delhi, India 🇮🇳"
+    location     = "New Delhi, India"
     current_role = "SDE @ Omniful AI"
     building     = ["distributed systems in Go", "AI-native tooling", "things that feel like magic"]
     learning     = ["Rust", "eBPF", "system design at scale"]
     philosophy   = "if it's not fast, it's not done"
-    hobbies      = ["comic books 🦸", "gaming 🎮", "breaking prod at 2am 🔥"]
+    hobbies      = ["comic books", "gaming, "breaking prod at 2am"]
     ask_me_about = ["Go internals", "system design", "why Dart is underrated"]
 
     def available_for(self):
@@ -48,12 +48,13 @@ class Ayush:
 ```
 // currently shipping
 ▶  distributed cache with custom eviction policies    [ Go         ]  ████████░░  80%
+▶  gamified interview prep engine (prepio)            [ Next/Flutter ]  ███░░░░░░░  30%
 ▶  AI-powered no-code app platform (buildit v2)       [ TypeScript ]  █████░░░░░  50%
-▶  gamified interview prep engine (prepio)            [ Go/Flutter ]  ███░░░░░░░  30%
+          
 
 // on the radar
 ○  Rust — because Go made me greedy for speed
-○  eBPF — kernel-level observability is witchcraft
+○  eBPF — kernel-level observability
 ○  WebAssembly — the browser deserves better runtimes
 ```
 
