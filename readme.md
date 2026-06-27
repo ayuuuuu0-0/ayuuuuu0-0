@@ -33,7 +33,7 @@ class Ayush:
     building     = ["high-throughput systems in Go", "distributed event pipelines", "AI-native tooling"]
     learning     = ["Rust", "eBPF", "consensus algorithms"]
     philosophy   = "if it's not fast, it's not done"
-    interests    = ["system design", "compilers", "low-level networking", "comic books", "gaming"]
+    interests    = ["system design", "compilers", "low-level networking", "comic books", "gaming", "cooking"]
     ask_me_about = ["Go internals", "event-driven architecture", "why Dart is underrated"]
 
     def available_for(self):
@@ -55,43 +55,6 @@ class Ayush:
 ○  eBPF            — kernel-level observability without instrumentation overhead
 ○  WebAssembly     — portable, sandboxed, near-native execution in the browser
 ```
-
----
-
-### event_arcade
-
-A distributed arcade battle engine built for scale. The core challenge: simulate hundreds of concurrent player sessions with deterministic outcomes, zero state drift across nodes, and a tamper-evident audit trail.
-
-```
-architecture
-
-  clients ──► WebSocket gateway ──► Kafka topic (battle-events)
-                                         │
-                              ┌──────────┼──────────┐
-                              ▼          ▼          ▼
-                         worker-0    worker-1    worker-N
-                              │          │          │
-                         append-only JSONL log (per-session)
-                              │
-                         Redis (leaderboard, session cache)
-                              │
-                         SHA-256 chain (integrity verification)
-```
-
-```
-key design decisions
-
-  deterministic matchmaking   →  seeded RNG, reproducible outcomes from same input sequence
-  single-writer log           →  one goroutine owns each session log, eliminates write contention
-  Kafka partitioning          →  partition by session-id, preserves per-session event ordering
-  Redis sorted sets           →  O(log N) leaderboard ops, TTL-based session expiry
-  integrity chain             →  each log entry hashes prev_hash + payload, detect any tampering
-  worker pool                 →  goroutine-per-session model, back-pressure via channel buffers
-```
-
-> scaling target: 10k concurrent sessions, sub-5ms matchmaking, full audit trail, horizontally scalable workers
-
----
 
 <div align="center">
 <sub>always down to collab &nbsp;·&nbsp; <a href="mailto:ranaayush0725@gmail.com">ranaayush0725@gmail.com</a></sub>
