@@ -1,7 +1,14 @@
-<h1 align="center">🕸️ Hey, I'm Ayush</h1>
-<p align="center">
-Your friendly neighborhood dev swinging and building cool stuff one commit at a time.
-</p>
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Ayush+%F0%9F%95%B8%EF%B8%8F;Your+friendly+neighborhood+dev;Building+cool+stuff%2C+one+commit+at+a+time;Open+to+collabs+%26+new+ideas!" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=header" width="100%"/>
+
+</div>
 
 ---
 
@@ -81,5 +88,109 @@ Your friendly neighborhood dev swinging and building cool stuff one commit at a 
 </p>
 
 ---
+
+## 🌟 Featured Projects
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🔮 Project One</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/project-one" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-one&theme=tokyonight&hide_border=true&bg_color=0d1117" width="100%"/>
+        </a>
+        <p>
+          <a href="https://github.com/yourusername/project-one"><img src="https://img.shields.io/badge/Code-A78BFA?style=flat-square&logo=github&logoColor=white"/></a>
+          <a href="#"><img src="https://img.shields.io/badge/Live-34D399?style=flat-square&logo=vercel&logoColor=white"/></a>
+        </p>
+        <p align="center"><em>Short snappy description — what it does, why it's cool. 1–2 lines max.</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+        </p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">🚀 Project Two</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/project-two" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-two&theme=tokyonight&hide_border=true&bg_color=0d1117" width="100%"/>
+        </a>
+        <p>
+          <a href="https://github.com/yourusername/project-two"><img src="https://img.shields.io/badge/Code-A78BFA?style=flat-square&logo=github&logoColor=white"/></a>
+          <a href="#"><img src="https://img.shields.io/badge/Live-34D399?style=flat-square&logo=vercel&logoColor=white"/></a>
+        </p>
+        <p align="center"><em>Short snappy description — what it does, why it's cool. 1–2 lines max.</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js"/>
+          <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">⛓️ Project Three</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/project-three" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-three&theme=tokyonight&hide_border=true&bg_color=0d1117" width="100%"/>
+        </a>
+        <p>
+          <a href="https://github.com/yourusername/project-three"><img src="https://img.shields.io/badge/Code-A78BFA?style=flat-square&logo=github&logoColor=white"/></a>
+          <a href="#"><img src="https://img.shields.io/badge/Live-34D399?style=flat-square&logo=vercel&logoColor=white"/></a>
+        </p>
+        <p align="center"><em>Short snappy description — what it does, why it's cool. 1–2 lines max.</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+        </p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">🎨 Project Four</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/project-four" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-four&theme=tokyonight&hide_border=true&bg_color=0d1117" width="100%"/>
+        </a>
+        <p>
+          <a href="https://github.com/yourusername/project-four"><img src="https://img.shields.io/badge/Code-A78BFA?style=flat-square&logo=github&logoColor=white"/></a>
+          <a href="#"><img src="https://img.shields.io/badge/Live-34D399?style=flat-square&logo=vercel&logoColor=white"/></a>
+        </p>
+        <p align="center"><em>Short snappy description — what it does, why it's cool. 1–2 lines max.</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=34D399" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA" height="165"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=tokyonight&hide_border=true&background=0d1117&ring=A78BFA&fire=34D399&currStreakLabel=A78BFA" width="49%"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer"/>
+</div>
 
 <p align="center">📢 Always up for collabs, building new ideas, or geeking out on tech. Let's connect!</p>
