@@ -21,7 +21,9 @@
 ---
 
 <div align="center">
-  <img src="techstack.svg" alt="Tech Stack" />
+  <a href="https://ayuuu-pro.vercel.app" target="_blank">
+    <img src="terminal-animated.svg" alt="Ayush Ranjan terminal" />
+  </a>
 </div>
 
 ---
