@@ -20,12 +20,9 @@
 
 ---
 
-```
-frontend   →  React · Next.js · Flutter · Vue · Three.js · Tailwind · TypeScript
-backend    →  Go · Node.js · Express · Redis · GraphQL · Firebase · REST
-cloud/db   →  PostgreSQL · MongoDB · AWS · Docker · Kubernetes
-languages  →  Go · TypeScript · Dart · C++ · Python · Java · Solidity
-```
+<div align="center">
+  <img src="techstack.svg" alt="Tech Stack" />
+</div>
 
 ---
 
@@ -33,30 +30,66 @@ languages  →  Go · TypeScript · Dart · C++ · Python · Java · Solidity
 class Ayush:
     location     = "New Delhi, India"
     current_role = "SDE @ Omniful AI"
-    building     = ["distributed systems in Go", "AI-native tooling", "things that feel like magic"]
-    learning     = ["Rust", "eBPF", "system design at scale"]
+    building     = ["high-throughput systems in Go", "distributed event pipelines", "AI-native tooling"]
+    learning     = ["Rust", "eBPF", "consensus algorithms"]
     philosophy   = "if it's not fast, it's not done"
-    hobbies      = ["comic books", "gaming, "breaking prod at 2am"]
-    ask_me_about = ["Go internals", "system design", "why Dart is underrated"]
+    interests    = ["system design", "compilers", "low-level networking", "comic books", "gaming"]
+    ask_me_about = ["Go internals", "event-driven architecture", "why Dart is underrated"]
 
     def available_for(self):
-        return ["collabs", "open source", "cool side projects", "coffee chats ☕"]
+        return ["collabs", "open source", "side projects", "coffee chats"]
 ```
 
 ---
 
 ```
 // currently shipping
-▶  distributed cache with custom eviction policies    [ Go         ]  ████████░░  80%
-▶  gamified interview prep engine (prepio)            [ Next/Flutter ]  ███░░░░░░░  30%
-▶  AI-powered no-code app platform (buildit v2)       [ TypeScript ]  █████░░░░░  50%
-          
+
+▶  qcache          — in-memory KV store, custom eviction, Redis RESP protocol    [ Go           ]  ████████░░  80%
+▶  event_arcade    — distributed arcade engine, Kafka-backed event bus           [ TypeScript   ]  █████░░░░░  55%
+▶  prepio          — interview prep platform, Go microservices + Flutter         [ Next/Flutter ]  ███░░░░░░░  30%
 
 // on the radar
-○  Rust — because Go made me greedy for speed
-○  eBPF — kernel-level observability
-○  WebAssembly — the browser deserves better runtimes
+
+○  Rust            — ownership model, zero-cost abstractions, WASM target
+○  eBPF            — kernel-level observability without instrumentation overhead
+○  WebAssembly     — portable, sandboxed, near-native execution in the browser
 ```
+
+---
+
+### event_arcade
+
+A distributed arcade battle engine built for scale. The core challenge: simulate hundreds of concurrent player sessions with deterministic outcomes, zero state drift across nodes, and a tamper-evident audit trail.
+
+```
+architecture
+
+  clients ──► WebSocket gateway ──► Kafka topic (battle-events)
+                                         │
+                              ┌──────────┼──────────┐
+                              ▼          ▼          ▼
+                         worker-0    worker-1    worker-N
+                              │          │          │
+                         append-only JSONL log (per-session)
+                              │
+                         Redis (leaderboard, session cache)
+                              │
+                         SHA-256 chain (integrity verification)
+```
+
+```
+key design decisions
+
+  deterministic matchmaking   →  seeded RNG, reproducible outcomes from same input sequence
+  single-writer log           →  one goroutine owns each session log, eliminates write contention
+  Kafka partitioning          →  partition by session-id, preserves per-session event ordering
+  Redis sorted sets           →  O(log N) leaderboard ops, TTL-based session expiry
+  integrity chain             →  each log entry hashes prev_hash + payload, detect any tampering
+  worker pool                 →  goroutine-per-session model, back-pressure via channel buffers
+```
+
+> scaling target: 10k concurrent sessions, sub-5ms matchmaking, full audit trail, horizontally scalable workers
 
 ---
 
