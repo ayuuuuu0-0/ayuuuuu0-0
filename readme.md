@@ -4,7 +4,7 @@
 
 <br/>
 
-<sub><code>bangalore &nbsp;·&nbsp; PropSoch ai &nbsp;·&nbsp; building things that matter</code></sub>
+<sub><code>Bangalore &nbsp;·&nbsp; PropSoch  &nbsp;·&nbsp; building things that matter</code></sub>
 
 <br/><br/>
 
