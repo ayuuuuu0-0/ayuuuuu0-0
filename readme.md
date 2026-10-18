@@ -4,7 +4,7 @@
 
 <br/>
 
-<sub><code>new delhi &nbsp;·&nbsp; omniful ai &nbsp;·&nbsp; building things that matter</code></sub>
+<sub><code>bangalore &nbsp;·&nbsp; PropSoch ai &nbsp;·&nbsp; building things that matter</code></sub>
 
 <br/><br/>
 
@@ -30,8 +30,8 @@
 
 ```python
 class Ayush:
-    location     = "New Delhi, India"
-    current_role = "SDE @ Omniful AI"
+    location     = "Bangalore, India"
+    current_role = "SDE @ PropSoch"
     building     = ["high-throughput systems in Go", "distributed event pipelines", "AI-native tooling"]
     learning     = ["Rust", "eBPF", "consensus algorithms"]
     philosophy   = "if it's not fast, it's not done"
